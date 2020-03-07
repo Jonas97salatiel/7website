@@ -1,0 +1,17 @@
+.seven-navbar{
+    background-color: black;
+    opacity: 84%;
+}
+
+.nav-text a { 
+    color: #02FF30; 
+}
+
+.navbar-nav > li{
+    padding-left:10px;
+    padding-right:30px;
+  }
+  
+.navbar-toggler-icon{
+    background-color: #02FF30 !important;
+}
