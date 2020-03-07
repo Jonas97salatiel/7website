@@ -1,15 +1,18 @@
 import React from 'react';
-import { Container } from 'reactstrap';
+import './home.css'
 
 
-const Home = (props) => {
 
-   <container id="Home">
+const Home = () => (
 
-      <h1>SevenSight</h1>
+   <container >
 
+      <div className="home">  
+
+         <h1 >SevenSight</h1>
+      </div>
    </container>
     
-};
+    );
 
 export default Home; 
