@@ -17,10 +17,11 @@ const [isOpen, setIsOpen] = useState(false);
 
 const toggle = () => setIsOpen(!isOpen);
 
-  return (<div  className="seven-navbar">
+  return (
+  <div  className="seven-navbar">
       <Navbar className="nav-text" expand="md">
         <NavbarBrand href="/">SevenSight</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler onClick={toggle}  />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
@@ -42,7 +43,6 @@ const toggle = () => setIsOpen(!isOpen);
         </Collapse>
       </Navbar>
     </div>
-  
    );
 }
 

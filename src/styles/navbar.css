@@ -5,4 +5,10 @@
 
 .nav-text a {
     color: #02FF30;
+    margin-right: 10px;
+}
+
+.navbar-toggler {
+    background-color: black;
+    opacity: 0.1;
 }
