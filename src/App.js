@@ -2,12 +2,11 @@ import React from 'react';
 import Header from './componets/Header';
 
 
-function App() {
-  return (
+const App = () => (
+    <div className="App">
+      <Header />
+    </div>
 
-    <Header />
-  
-    );
-}
+);
 
 export default App;
