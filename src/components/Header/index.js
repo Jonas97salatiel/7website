@@ -24,7 +24,7 @@ const toggle = () => setIsOpen(!isOpen);
 
   return ( <div>
       <Navbar expand="md">
-        <NavbarBrand className="navbarColor"href="/">reactstrap</NavbarBrand>
+        <NavbarBrand className="navbarcolor"href="/">reactstrap</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
