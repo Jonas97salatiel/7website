@@ -13,6 +13,7 @@ import {
   DropdownItem,
   NavbarText
 } from 'reactstrap';
+import '../../styles/global.css';
 
 
 const Header = () => {
@@ -21,12 +22,12 @@ const [isOpen, setIsOpen] = useState(false);
 
 const toggle = () => setIsOpen(!isOpen);
 
-  return (<div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+  return ( <div>
+      <Navbar expand="md">
+        <NavbarBrand className="navbarColor"href="/">reactstrap</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
+          <Nav className="ml-auto" navbar>
             <NavItem>
               <NavLink href="/components/">Components</NavLink>
             </NavItem>
