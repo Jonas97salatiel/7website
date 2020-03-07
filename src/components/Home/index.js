@@ -1,11 +1,15 @@
 import React from 'react';
+import { Container } from 'reactstrap';
 
 
 const Home = (props) => {
 
-   <h1>Home</h1>
-    
+   <container id="Home">
 
+      <h1>SevenSight</h1>
+
+   </container>
+    
 };
 
 export default Home; 
