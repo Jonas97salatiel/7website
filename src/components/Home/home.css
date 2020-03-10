@@ -1,4 +1,8 @@
-
+@font-face{
+    font-family: Oswald-SemiBold;
+    src: url(../../assets/fonts/Oswald-Regular.ttf);
+    
+}
 
 .home {
     width: 100%;
@@ -11,5 +15,7 @@
 }
 
 h1{
-    
+    font-family: Oswald-SemiBold;
+    font-size: 4em;
 }
+

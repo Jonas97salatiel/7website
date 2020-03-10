@@ -9,8 +9,12 @@ const Home = () => (
 
       <div className="home">  
 
-         <h1 >SevenSight</h1>
+         <div>
+            <h1>Seven</h1>
+            <h1>Sight</h1>
+         </div>
       </div>
+
    </container>
     
     );
