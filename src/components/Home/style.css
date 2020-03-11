@@ -4,6 +4,16 @@
     
 }
 
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url(../../assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Bold;
+    src: url(../../assets/fonts/Montserrat-Bold.ttf);
+}
+
 .home {
     margin: 0 auto;
     width: 90%;
@@ -40,12 +50,29 @@
     border-radius: .2em;
 }
 .aling__end{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: flex-end;
 }
 
 .text__home{
-    margin: 8em 0 0 0;
+
+    font-size: 1.5em ;
+    font-family: Montserrat-Regular;
+    margin: 4em 0 0 0;
     color: white !important;
 }
 
+.button__contato{
+    width: 15em;
+    height: 3em;
+    background-color: #6CE95A;
+    border-radius: .3em ;
+    border: none;
+    color: black;
+    font-size: 1em;
+    margin: 4em 0 0 0;
+    font-family: Montserrat-Bold;
 
+}
