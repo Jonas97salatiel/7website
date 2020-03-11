@@ -21,9 +21,12 @@
     height: 100%;
     
 }
+
+
 .nome{
     display: flex;
 }
+
 .nome_da_ej{
     display: flex;
     flex-wrap: wrap;
