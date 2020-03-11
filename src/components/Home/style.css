@@ -1,0 +1,51 @@
+@font-face{
+    font-family: Oswald-SemiBold;
+    src: url(../../assets/fonts/Oswald-Regular.ttf);
+    
+}
+
+.home {
+    margin: 0 auto;
+    width: 90%;
+    background: black;
+    height: 100%;
+    
+}
+.nome{
+    display: flex;
+}
+.nome_da_ej{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Oswald-SemiBold;
+    margin: 11em 0 0;
+}
+
+.seven{
+    color: #6CE95A;
+    font-size: 6em;
+
+}
+
+.sight{
+
+    color: white;
+    font-size: 6em;
+}
+
+.traco{
+    width: 8em;
+    height: .5em;
+    background: #6CE95A;
+    border-radius: .2em;
+}
+.aling__end{
+    align-items: flex-end;
+}
+
+.text__home{
+    margin: 8em 0 0 0;
+    color: white !important;
+}
+
+
