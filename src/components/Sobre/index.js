@@ -25,7 +25,8 @@ const Sobre = () => {
                         atender nossos clientes buscando sempre a
                         melhor solução!
                     </p> 
-                    <img className="sobre__image" src={image}/>   
+                    <img className="sobre__image" src={image}/> 
+                      
                 </div>
             </div>
             
