@@ -3,6 +3,7 @@
     opacity: 84%;
 }
 
+
 .nav-text a { 
     color: #02FF30; 
 }
@@ -14,4 +15,13 @@
   
 .navbar-toggler-icon{
     background-color: #02FF30 !important;
+}
+.nav-text a {
+    color: #02FF30;
+    margin-right: 10px;
+}
+
+.navbar-toggler {
+    background-color: black;
+    opacity: 0.1;
 }

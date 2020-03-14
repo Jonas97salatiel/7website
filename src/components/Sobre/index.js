@@ -1,5 +1,6 @@
 
 import React from 'react';
+
 import './style.css'
 import image from './image.jpg';
 
@@ -8,7 +9,7 @@ const Sobre = () => {
 
     return (
 
-        <container>
+        <container className="container__sobre">
 
             <div className="sobre">
                 <div className="title">
@@ -37,4 +38,5 @@ const Sobre = () => {
     };
 
 
-export default Sobre; 
+
+export default Sobre;

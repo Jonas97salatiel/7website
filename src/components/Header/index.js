@@ -24,23 +24,9 @@ const toggle = () => setIsOpen(!isOpen);
         <NavbarBrand href="/">7Sight</NavbarBrand>
         <NavbarToggler color onClick={toggle} />
         <Collapse   className="togg-cor"isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
-            <NavItem>
-              <NavLink href="/sobre/">Sobre</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/time/">Time</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/servicos/">Serviços</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/contatos/">Contatos</NavLink>
-            </NavItem>
-      </Nav>
-      </Collapse>
-      </Navbar>
-    </div>
+          </Collapse>
+          </Navbar>
+          </div>
    );
 }
 
