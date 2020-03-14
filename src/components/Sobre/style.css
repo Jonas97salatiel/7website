@@ -20,7 +20,6 @@ html{
 
 .container__sobre{
     display: flex;
-    align-items: center;
     justify-content: center;
     
 }
@@ -74,25 +73,8 @@ html{
     border-radius: 1em;
     margin: 1em;
 }
-@media (max-width: 1200px) {
 
-    .sobre__info{
-
-        margin-top: 1.5em;
-    }
-
-    .sobre__text{
-
-        font-size: 1.1em;
-        width: 40%;
-        
-    }
-    .sobre__image{
-        width: 45%;
-    }
-}
-
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 
     .sobre__info{
         align-items: center;
@@ -107,7 +89,7 @@ html{
 
     }
     .sobre__image{
-        margin: 0;
+        margin: 1em 0 0;
         width: 100%;
     }
 }

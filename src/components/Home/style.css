@@ -14,17 +14,17 @@
     src: url(../../assets/fonts/Montserrat-Bold.ttf);
 }
 
+.container__home{
+    display: flex;
+    justify-content: center;
+}
+
 .home {
-    margin: 0 auto;
-    width: 90%;
+    margin: 0 5% 0 5%;
+    width: 1400px;
     background: black;
     height: 100%;
     
-}
-
-
-.nome{
-    display: flex;
 }
 
 .nome_da_ej{
