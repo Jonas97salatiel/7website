@@ -12,8 +12,8 @@ const Sobre = () => {
 
             <div className="sobre">
                 <div className="title">
-                <div className="title__sobre">Sobre</div>
-                <div className="traco"></div>
+                    <div className="title__sobre">Sobre</div>
+                    <div className="traco"></div>
                 </div>
                 <div className="sobre__info">
                     <p className="sobre__text">

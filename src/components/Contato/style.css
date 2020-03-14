@@ -1,0 +1,78 @@
+@font-face{
+    font-family: Oswald-Regular;
+    src: url(../../assets/fonts/Oswald-Regular.ttf);
+    
+}
+
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url(../../assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Bold;
+    src: url(../../assets/fonts/Montserrat-Bold.ttf);
+}
+
+html{
+    font-size: 62,5%;
+}
+
+.container__contato{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.contato {
+
+    width: 1400px;
+    margin: 5%;
+    background: black;  
+}
+
+.title__contato{
+
+    color: white;
+    margin: 5% 0 .5% 0;
+    font-size: 3rem;
+    font-family: Oswald-Regular;
+
+}
+
+.traco{
+    width: 3em;
+    height: .5em;
+    background: #6CE95A;
+    border-radius: .2em;
+}
+
+.contato__form{
+    width: 50%;
+}
+.form{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 10em;
+
+
+}
+
+.form input{
+    margin-bottom:2em ;
+    width: 100%;
+    text-align: start;
+
+}
+
+
+
+
+@media (max-width: 900px) {
+
+   
+}
+

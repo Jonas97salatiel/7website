@@ -17,13 +17,14 @@
 .container__home{
     display: flex;
     justify-content: center;
+    height: 100%;
 }
 
 .home {
     margin: 0 5% 0 5%;
     width: 1400px;
     background: black;
-    height: 100%;
+    
     
 }
 
