@@ -8,7 +8,7 @@ const Sobre = () => {
 
     return (
 
-        <container>
+        <container className="container__sobre">
 
             <div className="sobre">
                 <div className="title">

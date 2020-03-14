@@ -18,9 +18,18 @@ html{
     font-size: 62,5%;
 }
 
+.container__sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 .sobre {
-    margin: 0 auto;
-    max-width: 90%;
+
+
+    max-width: 1400px;
+    margin: 5%;
     background: black;
     height: 100%;
     
