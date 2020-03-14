@@ -71,6 +71,12 @@ html{
    
 }
 
+.time_instF{
+    font-size: 30px;
+    color:#6CE95A;
+    margin: 6%;
+}
+
 
     .time__info{
         margin-top: 1.5em;
