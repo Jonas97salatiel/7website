@@ -1,0 +1,113 @@
+@font-face{
+    font-family: Oswald-Regular;
+    src: url(../../assets/fonts/Oswald-Regular.ttf);
+    
+}
+
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url(../../assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Bold;
+    src: url(../../assets/fonts/Montserrat-Bold.ttf);
+}
+
+html{
+    font-size: 62,5%;
+}
+
+.container__time{   
+    display: flex;
+    justify-content: center;
+    
+}
+
+    
+
+.time {
+
+    
+    width: 1400px;
+    margin: 5%;
+    background: black;
+    height: 100%;
+    
+}
+
+.title__time{
+
+    color: white;
+    margin: 5% 0 .5% 0;
+    font-size: 3rem;
+    font-family: Oswald-Regular;
+
+}
+
+.traco_time{
+    
+    width: 3em;
+    height: .5em;
+    background: #6CE95A;
+    border-radius: .2em;
+}
+
+.time__info{
+    text-align: center !important;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    
+}
+
+.time__text{
+    color: white !important;
+    font-family: Montserrat-Regular;    
+    font-size: 1.25em;
+    text-align: center !important;
+   
+   
+}
+
+
+    .time__info{
+        margin-top: 1.5em;
+    }
+    .time_image{
+        width:69% !important;
+        border-radius: 5%;
+        margin-top: 70px;
+    }
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+@media (max-width: 900px) {
+
+
+    .time__info{
+        
+        align-items: center;
+        flex-wrap: wrap; /*função pra quebrar os elemntos*/
+
+    }
+    .time__text{
+        text-align: center;
+        margin-top: 1.5em;
+        font-size: 1em;
+        width: 100%; 
+
+    }
+    .time__image{
+        margin: 1em 0 0;
+        width: 100%;
+    }
+}
+}
