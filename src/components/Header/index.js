@@ -9,8 +9,8 @@ import {
   NavLink
 } from 'reactstrap';
 
-import '../../styles/navbar.css'
 
+import '../../styles/navbar.css'
 
 const Header = () => {
    
@@ -35,16 +35,12 @@ const toggle = () => setIsOpen(!isOpen);
               <NavLink href="/servicos/">Serviços</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/clientes/">Clientes</NavLink>
+              <NavLink href="/contatos/">Contatos</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="/contato/">Contato</NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
+      </Nav>
+      </Collapse>
       </Navbar>
     </div>
-  
    );
 }
 

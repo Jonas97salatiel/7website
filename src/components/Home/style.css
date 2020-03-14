@@ -1,0 +1,81 @@
+@font-face{
+    font-family: Oswald-SemiBold;
+    src: url(../../assets/fonts/Oswald-Regular.ttf);
+    
+}
+
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url(../../assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Bold;
+    src: url(../../assets/fonts/Montserrat-Bold.ttf);
+}
+
+.home {
+    margin: 0 auto;
+    width: 90%;
+    background: black;
+    height: 100%;
+    
+}
+
+
+.nome{
+    display: flex;
+}
+
+.nome_da_ej{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Oswald-SemiBold;
+    margin: 11em 0 0;
+}
+
+.seven{
+    color: #6CE95A;
+    font-size: 6em;
+
+}
+
+.sight{
+
+    color: white;
+    font-size: 6em;
+}
+
+.traco{
+    width: 8em;
+    height: .5em;
+    background: #6CE95A;
+    border-radius: .2em;
+}
+.aling__end{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.text__home{
+
+    font-size: 1.5em ;
+    font-family: Montserrat-Regular;
+    margin: 4em 0 0 0;
+    color: white !important;
+}
+
+.button__contato{
+    width: 15em;
+    height: 3em;
+    background-color: #6CE95A;
+    border-radius: .3em ;
+    border: none;
+    color: black;
+    font-size: 1em;
+    margin: 4em 0 0 0;
+    font-family: Montserrat-Bold;
+
+}
