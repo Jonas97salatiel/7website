@@ -86,7 +86,7 @@ html{
 @media (max-width: 800px) {
 
     .sobre__info{
-        align-items: flex-start;
+        align-items: center;
         flex-wrap: wrap; /*função pra quebrar os elemntos*/
 
     }
@@ -95,9 +95,10 @@ html{
         margin-top: 1.5em;
         font-size: 1em;
         width: 100%; 
+
     }
     .sobre__image{
-        
+        margin: 0;
         width: 100%;
     }
 }
