@@ -21,7 +21,9 @@ const toggle = () => setIsOpen(!isOpen);
   <div  className="seven-navbar">
       <Navbar className="nav-text" expand="md">
         <NavbarBrand href="/">SevenSight</NavbarBrand>
-        <NavbarToggler onClick={toggle}  />
+        <NavbarToggler onClick={toggle} >
+        <i class="fab fa-buffer fa-2x"></i>
+        </NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
