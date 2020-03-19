@@ -3,11 +3,10 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink
+  NavbarBrand
 } from 'reactstrap';
+
+
 import '../../styles/navbar.css'
 
 const Header = () => {
@@ -16,9 +15,10 @@ const [isOpen, setIsOpen] = useState(false);
 
 const toggle = () => setIsOpen(!isOpen);
 
-  return (
-  <div  className="seven-navbar">
+
+  return (<div  className="seven-navbar">
       <Navbar className="nav-text" expand="md">
+<<<<<<< HEAD
         <NavbarBrand href="/">SevenSight</NavbarBrand>
         <NavbarToggler onClick={toggle} >
         <i class="fab fa-buffer fa-2x"></i>
@@ -44,6 +44,14 @@ const toggle = () => setIsOpen(!isOpen);
         </Collapse>
       </Navbar>
     </div>
+=======
+        <NavbarBrand href="/">7Sight</NavbarBrand>
+        <NavbarToggler color onClick={toggle} />
+        <Collapse   className="togg-cor"isOpen={isOpen} navbar>
+          </Collapse>
+          </Navbar>
+          </div>
+>>>>>>> 801d0bf7ac28e8dde9a05417ff9bdbd9c2cc12ba
    );
 }
 

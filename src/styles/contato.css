@@ -1,0 +1,23 @@
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.tamanho-contato {
+    margin:0;
+    height: 100%;
+    
+}
+
+.inputz{
+   
+    color: #02FF30;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}

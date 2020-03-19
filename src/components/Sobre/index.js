@@ -1,5 +1,6 @@
 
-import React  from 'react';
+import React from 'react';
+
 import './style.css'
 import image from './image.jpg';
 
@@ -33,7 +34,9 @@ const Sobre = () => {
             
         </container>
     );
-};
+    
+    };
+
 
 
 export default Sobre;

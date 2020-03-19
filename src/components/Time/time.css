@@ -18,24 +18,25 @@ html{
     font-size: 62,5%;
 }
 
-.container__sobre{
+.container__time{   
     display: flex;
     justify-content: center;
+    
+}
+
+    
+
+.time {
+
+    
+    width: 1400px;
+    margin: 5%;
+    background: black;
     height: 100%;
     
 }
 
-.sobre {
-
-
-    max-width: 1400px;
-    margin: 5%;
-    background: black;
-    
-    
-}
-
-.title__sobre{
+.title__time{
 
     color: white;
     margin: 5% 0 .5% 0;
@@ -44,15 +45,16 @@ html{
 
 }
 
-.traco{
+.traco_time{
+    
     width: 3em;
     height: .5em;
     background: #6CE95A;
     border-radius: .2em;
 }
 
-.sobre__info{
-
+.time__info{
+    text-align: center !important;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -60,37 +62,35 @@ html{
     
 }
 
-.sobre__text{
-
-    color: white;
-    width: 40%;
+.time__text{
+    color: white !important;
     font-family: Montserrat-Regular;    
     font-size: 1.25em;
+    text-align: center !important;
+   
+   
 }
 
-.sobre__image{
-
-    width: 45%;
-    border-radius: 1em;
-    margin: 1em;
-    align-items: center;
+.time_instF{
+    font-size: 30px;
+    color:#6CE95A;
+    margin: 6%;
 }
 
 
-    .sobre__info{
-
+    .time__info{
         margin-top: 1.5em;
     }
+    .time_image{
+        width:69% !important;
+        border-radius: 5%;
+        margin-top: 70px;
+    }
 
-    .sobre__text{
-        align-self: justify-content !important;
-        font-size: 1.1em;
-        width: 40%;
-        
-    }
-    .sobre__image{
-        width: 45%;
-    }
+
+
+
+
 
 
 @media (max-width: 800px) {
@@ -98,19 +98,20 @@ html{
 @media (max-width: 900px) {
 
 
-    .sobre__info{
+    .time__info{
+        
         align-items: center;
         flex-wrap: wrap; /*função pra quebrar os elemntos*/
 
     }
-    .sobre__text{
-
+    .time__text{
+        text-align: center;
         margin-top: 1.5em;
         font-size: 1em;
         width: 100%; 
 
     }
-    .sobre__image{
+    .time__image{
         margin: 1em 0 0;
         width: 100%;
     }
