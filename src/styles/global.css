@@ -9,19 +9,15 @@ html, body, #root {
     display: flex;
     align-items: center;
 }
-
-<<<<<<< HEAD
 .wrapper {
     display: flex;
     flex-direction: line;
     align-items: center;
     justify-content: center;
 }
-=======
+
 .navbarcolor a {
     color: '#00FD43';
 
 }
 
-
->>>>>>> 801d0bf7ac28e8dde9a05417ff9bdbd9c2cc12ba
