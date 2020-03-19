@@ -1,14 +1,15 @@
 .seven-navbar{
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.84;
+    border-top: 1px solid white;
+    margin: 20px;
 }
 
 .nav-text a {
-    color: #02FF30;
+    color: white;
     margin-right: 10px;
 }
 
-.navbar-toggler {
-    background-color: black;
-    opacity: 0.1;
+.fab{
+    z-index: 5;
 }

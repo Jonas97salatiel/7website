@@ -1,11 +1,24 @@
 import React from 'react';
+<<<<<<< HEAD
 import './style.css'
+=======
+import '../../styles/global.css'
+>>>>>>> 32fa789306c8de39363b45f19fe1c5764bbba13c
 
 
 
+<<<<<<< HEAD
 const Home = () => (
 
    <container className="container__home">
+=======
+   return(
+      <div className="wrapper">
+      <h1>Home</h1>
+      </div>
+   )
+    
+>>>>>>> 32fa789306c8de39363b45f19fe1c5764bbba13c
 
       <div className="home">  
          <div>

@@ -1,10 +1,21 @@
 html, body, #root {
     height: 100%;
+<<<<<<< HEAD
     background: black;
+=======
+    background-color: black;
+>>>>>>> 32fa789306c8de39363b45f19fe1c5764bbba13c
 }
 
 .main {
     min-height: 100%; 
     display: flex;
     align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    justify-content: center;
 }
