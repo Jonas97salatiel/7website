@@ -9,23 +9,11 @@ import {
   NavLink
 } from 'reactstrap';
 
-<<<<<<< HEAD
-const Header = () => {
-
-const [isOpen, setIsOpen] = useState(false);
-
-const toggle = () => setIsOpen(!isOpen);
-=======
 
 import '../../styles/navbar.css'
-
 const Header = () => {
-   
 const [isOpen, setIsOpen] = useState(false);
-
 const toggle = () => setIsOpen(!isOpen);
-
->>>>>>> 39c38ac060a4562167753590af8f6a073402fa42
 
   return (<div  className="seven-navbar">
       <Navbar className="nav-text" expand="md">

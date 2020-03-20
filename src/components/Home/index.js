@@ -2,14 +2,6 @@ import React from 'react';
 import './style.css'
 
 
-
-<<<<<<< HEAD
-   <h1 id="home">Home</h1>
-    
-=======
->>>>>>> 39c38ac060a4562167753590af8f6a073402fa42
-
-
 const Home = () => (
 
    <container className="container__home">
