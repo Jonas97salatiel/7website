@@ -26,7 +26,6 @@ html{
 }
 
 .contato {
-
     width: 1400px;
     margin: 5%;
     background: black;  
@@ -48,28 +47,96 @@ html{
     border-radius: .2em;
 }
 
+.contato__itens{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
 .contato__form{
-    width: 50%;
+    width: 40%;
 }
 .form{
     
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    margin-top: 10em;
+    margin-top: 5em;
 
 
 }
 
-.form input{
+.form input, textarea{
+
     margin-bottom:2em ;
     width: 100%;
     text-align: start;
+    background: rgb(0, 0, 0);
+    border-top: rgb(0, 0, 0);
+    border-left: black;
+    border-right: black;
+    border-bottom-color: #6CE95A ;
+    border-bottom-width: .3em;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat-Bold;
+    font-size: 1em;
+
+}
+.form input {
+    height: 3em;
+}
+
+button{
+    width: 10em;
+    height: 2.5em;
+    background-color: #6CE95A;
+    border-radius: .3em ;
+    border: none;
+    color: black;
+    font-size: 1.2em;
+    font-family: Montserrat-Bold;
+}
+
+button:hover{
+    box-shadow: #6CE95A;
 
 }
 
+.divisao{
+    height: 10em;
+    width: .5em;
+    background: #6CE95A;
+    color: white;
+    border-radius: .5em ;
+    
+}
 
+.contato__info{
+    width: 40%;
+    
 
+}
+
+.contato__info__endereco{
+
+    color: white;
+    font-family: Oswald-Regular;
+    font-size: 2em;
+
+}
+
+.contato__info p{
+    padding-top: 1em;
+    color: white;
+    font-family: Montserrat-Bold;
+}
+
+.contato_icons{
+    width: 2em;
+    height: 1em;
+    background: #6CE95A;
+}
 
 @media (max-width: 900px) {
 

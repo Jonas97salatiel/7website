@@ -3,7 +3,10 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink
 } from 'reactstrap';
 
 

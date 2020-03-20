@@ -17,8 +17,9 @@ const App = () => (
       <Header />
       <Home />
       <Sobre />
-      <Contato />
       <Time />
+      <Contato />
+      
 
     </div>
 

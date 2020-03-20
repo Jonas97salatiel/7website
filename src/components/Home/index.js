@@ -5,7 +5,6 @@ import './style.css'
 
 
 
-
 const Home = () => (
 
    <container className="container__home">
