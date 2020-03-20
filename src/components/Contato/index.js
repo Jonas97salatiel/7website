@@ -26,27 +26,20 @@ const Contato = () => {
                <button type="submit">Enviar</button>
             </form>
          </div>
-         <div className="divisao"></div>
-         <div className="contato__info">
-            <div className="contato__info__endereco">Endereço</div>
-            <p>
-            Av. das Castanheiras, S/N - Lote 3700 - Águas Claras, Brasília - DF, 70297-400<br/>
-            Centro Universitário Euro-Americano
-            </p>
-            <div className="contato__info__endereco">Redes Sociais</div>
-            <img className="contato_icons" src={iconfacebook}></img>
-            <img className="contato_icons" src={iconinstagran}></img>
-            <img className="contato_icons" src={iconlinkedin}></img>
-            
-
-
-
-
+         <div className="contato_i">
+            <div className="contato__info">
+               <div className="contato__info__endereco">Endereço</div>
+               <p>
+                  Av. das Castanheiras, S/N - Lote 3700 - Águas Claras, Brasília - DF, 70297-400<br/>
+                  Centro Universitário Euro-Americano
+               </p>
+               <div className="contato__info__endereco">Redes Sociais</div>
+               <a href="https://www.instagram.com/7sightjr/"><img className="contato_icons" src={iconinstagran}></img></a>
+               <a href="https://br.linkedin.com/company/7sight"><img className="contato_icons" src={iconlinkedin}></img></a>
+            </div>
          </div>
-         
+      </div>   
       </div>
-      </div>
-
       
       
    </container>
