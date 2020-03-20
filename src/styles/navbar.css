@@ -1,0 +1,50 @@
+@font-face{
+    font-family: Oswald-Regular;
+    src: url(../assets/fonts/Oswald-Regular.ttf);
+    
+}
+
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Bold;
+    src: url(../assets/fonts/Montserrat-Bold.ttf);
+}
+
+
+
+.seven-navbar{
+    background-color: black;
+    opacity: 0.84;
+    border-top: 1px solid white;
+    margin: 20px;
+    font-family: Montserrat-Bold;
+    opacity: 84%;
+    font-size: 1em;
+
+}
+
+
+.nav-text a { 
+    color: #02FF30; 
+}
+
+.navbar-nav > li{
+    padding-left:10px;
+    padding-right:30px;
+  }
+  
+.navbar-toggler-icon{
+    background-color: #02FF30 !important;
+}
+.nav-text a {
+    color: white;
+    margin-right: 10px;
+}
+
+.fab{
+    z-index: 5;
+}

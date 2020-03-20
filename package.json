@@ -10,7 +10,8 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0",
-    "reactstrap": "^8.4.1"
+    "reactstrap": "^8.4.1",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "start": "react-scripts start",

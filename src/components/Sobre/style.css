@@ -1,0 +1,118 @@
+@font-face{
+    font-family: Oswald-Regular;
+    src: url(../../assets/fonts/Oswald-Regular.ttf);
+    
+}
+
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url(../../assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Bold;
+    src: url(../../assets/fonts/Montserrat-Bold.ttf);
+}
+
+html{
+    font-size: 62,5%;
+}
+
+.container__sobre{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.sobre {
+
+
+    max-width: 1400px;
+    margin: 5%;
+    background: black;
+    
+    
+}
+
+.title__sobre{
+
+    color: white;
+    margin: 5% 0 .5% 0;
+    font-size: 3rem;
+    font-family: Oswald-Regular;
+
+}
+
+.traco{
+    width: 3em;
+    height: .5em;
+    background: #6CE95A;
+    border-radius: .2em;
+}
+
+.sobre__info{
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    
+}
+
+.sobre__text{
+
+    color: white;
+    width: 40%;
+    font-family: Montserrat-Regular;    
+    font-size: 1.25em;
+}
+
+.sobre__image{
+
+    width: 45%;
+    border-radius: 1em;
+    margin: 1em;
+    align-items: center;
+}
+
+
+    .sobre__info{
+
+        margin-top: 1.5em;
+    }
+
+    .sobre__text{
+        align-self: justify-content !important;
+        font-size: 1.1em;
+        width: 40%;
+        
+    }
+    .sobre__image{
+        width: 45%;
+    }
+
+
+@media (max-width: 800px) {
+
+@media (max-width: 900px) {
+
+
+    .sobre__info{
+        align-items: center;
+        flex-wrap: wrap; /*função pra quebrar os elemntos*/
+
+    }
+    .sobre__text{
+
+        margin-top: 1.5em;
+        font-size: 1em;
+        width: 100%; 
+
+    }
+    .sobre__image{
+        margin: 1em 0 0;
+        width: 100%;
+    }
+}
+}

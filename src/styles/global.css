@@ -1,5 +1,7 @@
 html, body, #root {
     height: 100%;
+    background: black;
+
 }
 
 .main {
@@ -7,3 +9,15 @@ html, body, #root {
     display: flex;
     align-items: center;
 }
+.wrapper {
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarcolor a {
+    color: '#00FD43';
+
+}
+
