@@ -26,7 +26,7 @@ const Contato = () => {
                <button type="submit">Enviar</button>
             </form>
          </div>
-         <div className="contato_i">
+         <div className="contato__i">
             <div className="contato__info">
                <div className="contato__info__endereco">Endereço</div>
                <p>

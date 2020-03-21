@@ -66,6 +66,9 @@ html{
 
 
 }
+.form input {
+    height: 3em;
+}
 
 .form input, textarea{
 
@@ -81,11 +84,20 @@ html{
     color: rgb(255, 255, 255);
     font-family: Montserrat-Bold;
     font-size: 1em;
+    outline: #6CE95A;
+    transition: all .2s;
+
 
 }
-.form input {
-    height: 3em;
+
+.form input:focus{
+   background: rgb(24, 24, 24);
 }
+
+.form textarea:focus{
+    background: rgb(24, 24, 24);
+ }
+
 
 button{
     width: 10em;
@@ -96,10 +108,12 @@ button{
     color: black;
     font-size: 1.2em;
     font-family: Montserrat-Bold;
+    transition: all .2s;
 }
 
 button:hover{
-    box-shadow: #6CE95A;
+    color: white;
+    
 
 }
 
@@ -112,7 +126,7 @@ button:hover{
     
 }
 
-.contato_i{
+.contato__i{
     width: 40%;
     display: flex;
     align-items: flex-end;
@@ -146,6 +160,17 @@ button:hover{
 
 @media (max-width: 900px) {
 
+    .contato__form{
+        width: 100%;
+    }
+    .contato__itens{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .contato__i{
+        width: 100% !important;
+        padding-top: 2em;
+    }
    
 }
 
