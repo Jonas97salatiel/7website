@@ -20,8 +20,8 @@ const Time = () => (
                   <p className="time__text ">
                      Presidenta
                   </p>
-                  <a href="https://www.instagram.com/jessicamazoni_/"><i class="fab fa-instagram time_instF"></i></a>
-                     <a href="https://www.linkedin.com/in/jessicamazonimoura/"><i class="fab fa-linkedin time_instF "></i></a>
+                  <a href="https://www.instagram.com/jessicamazoni_/"><i class=""></i></a>
+                     <a href="https://www.linkedin.com/in/jessicamazonimoura/"><i class=""></i></a>
                
             </div>
                <div className="time_text">
@@ -32,8 +32,8 @@ const Time = () => (
                      <p className="time__text ">
                         NDP
                      </p>
-                     <a href="https://www.instagram.com/jonassalatiel/?hl=pt-br"><i class="fab fa-instagram time_instF"></i></a>
-                     <a href="https://www.linkedin.com/in/jonas-salatiel/"><i class="fab fa-linkedin time_instF "></i></a>
+                     <a href="https://www.instagram.com/jonassalatiel/?hl=pt-br"><i class=""></i></a>
+                     <a href="https://www.linkedin.com/in/jonas-salatiel/"><i class=""></i></a>
                </div>
                <div className="time_text">
                   <img className="time_image" src={image} />
@@ -43,8 +43,8 @@ const Time = () => (
                   <p className="time__text ">
                         NAF
                   </p>
-                  <a href="https://www.instagram.com/viitor_rocha/"><i class="fab fa-instagram time_instF"></i></a>
-                     <a href="https://www.linkedin.com/in/vítor-rocha-morais "><i class="fab fa-linkedin time_instF "></i></a>
+                  <a href="https://www.instagram.com/viitor_rocha/"><i class=""></i></a>
+                     <a href="https://www.linkedin.com/in/vítor-rocha-morais "><i class=""></i></a>
                </div>
                <div className="time_text">
                   <img className="time_image" src={image} />
@@ -54,8 +54,8 @@ const Time = () => (
                   <p className="time__text ">
                         NGP
                      </p>
-                     <a href="https://www.instagram.com/aline_lopes___/"><i class="fab fa-instagram time_instF"></i></a>
-                     <a href="https://www.linkedin.com/in/aline-lopes-49b398189/"><i class="fab fa-linkedin time_instF "></i></a>
+                     <a href="https://www.instagram.com/aline_lopes___/"><i class=""></i></a>
+                     <a href="https://www.linkedin.com/in/aline-lopes-49b398189/"><i class=""></i></a>
                </div>
                <div className="time_text">
                   <img className="time_image" src={image} />
@@ -65,8 +65,8 @@ const Time = () => (
                      <p className="time__text ">
                         NCM
                      </p>
-                     <a href="https://www.instagram.com/pradohenriq/"><i class="fab fa-instagram time_instF"></i></a>
-                     <a href="https://www.linkedin.com/in/carloshprado/"><i class="fab fa-linkedin time_instF "></i></a>
+                     <a href="https://www.instagram.com/pradohenriq/"><i class=""></i></a>
+                     <a href="https://www.linkedin.com/in/carloshprado/"><i class=""></i></a>
                </div>
 
          </div>

@@ -1,0 +1,231 @@
+@font-face{
+    font-family: Oswald-Regular;
+    src: url(../../assets/fonts/Oswald-Regular.ttf);
+    
+}
+
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url(../../assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Bold;
+    src: url(../../assets/fonts/Montserrat-Bold.ttf);
+}
+
+.container__servicos{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.servicos {
+    width: 1400px;
+    margin: 5%;
+    background: black;  
+}
+
+.title__servicos{
+
+    color: white;
+    margin: 5% 0 .5% 0;
+    font-size: 3rem;
+    font-family: Oswald-Regular;
+
+}
+
+.traco{
+    width: 3em;
+    height: .5em;
+    background: #6CE95A;
+    border-radius: .2em;
+}
+
+.servicos__itens{
+    padding-top: 5em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.servicos__website{
+    overflow: hidden;
+    width: 45%;
+    height: 20em;
+    background:grey;
+    border-radius: .5em;
+    
+
+}
+
+.website__nav{
+    
+    width: 100%;
+    height: 20%;
+    background: rgb(59, 59, 59);
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    animation-name: navbar;
+    animation-duration: 2s;
+
+}
+
+.website__logo{
+    width: 20%;
+    height: 50%;
+    background: #6CE95A;
+    border-radius: .5em;
+}
+.website__menu {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.website__menu__itens{
+    width: 15%;
+    height: 10%;
+    background: rgb(17, 17, 17);
+    border-radius: .5em;
+}
+
+.website__section{
+    padding: 1em;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.website__section__img{
+    width: 45%;
+    height: 100%;
+    background: rgb(102, 102, 102);
+
+    animation-name: img;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
+}
+
+.website__section__txt{
+
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    animation-name: text;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+
+}
+
+.website__section__txt__item{
+
+    width: 15em;
+    height: 1em;
+    background: rgb(39, 39, 39);
+    border-radius: .5em;
+}
+
+
+.website__section1{
+    padding: 1em;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+
+    animation-name: text;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+.website__section__txt__item1{
+
+    width: 100%;
+    height: 1em;
+    margin-bottom: .5em;    
+    background: rgb(39, 39, 39);
+    border-radius: .5em;
+}
+
+
+.servicos__desc{
+    width: 45%;
+}
+
+.servicos__desc__title{
+    color: white;
+    font-family: Oswald-Regular;
+    font-size: 2em;
+}
+
+.servicos__desc__text{
+    padding-top: 1em;
+    color: white;
+    font-family: Montserrat-Bold;
+}
+
+
+
+@keyframes navbar{
+    from{
+        opacity: 0;
+        transform: translateY(-15%);
+    }to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes img{
+    from{
+        opacity: 0;
+        transform: translateX(-15%);
+    }to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes text{
+    from{
+        opacity: 0;
+        transform: translateX(-15%);
+    }to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+
+
+@media (max-width: 900px) {
+
+    .servicos__website{
+        width: 90%;
+        margin: auto;
+    }
+    .servicos__desc{
+        padding-top: 3em;
+        width: 90%;
+        margin: auto;
+    }
+
+}

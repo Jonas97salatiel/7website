@@ -93,7 +93,6 @@ html{
     }
 
 
-@media (max-width: 800px) {
 
 @media (max-width: 900px) {
 
@@ -111,8 +110,7 @@ html{
 
     }
     .sobre__image{
-        margin: 1em 0 0;
-        width: 100%;
+        margin: 1em auto;
+        width: 70%;
     }
-}
 }
