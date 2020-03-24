@@ -58,8 +58,7 @@ html{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    margin-bottom: 1em;
-    
+    margin-bottom: 1em;   
 }
 
 .time__text{
@@ -67,7 +66,7 @@ html{
     font-family: Montserrat-Regular;    
     font-size: 1.25em;
     text-align: center !important;
-   
+    margin-top: 20px;
    
 }
 
@@ -98,8 +97,7 @@ html{
 @media (max-width: 900px) {
 
 
-    .time__info{
-        
+    .time__info{    
         align-items: center;
         flex-wrap: wrap; /*função pra quebrar os elemntos*/
 
