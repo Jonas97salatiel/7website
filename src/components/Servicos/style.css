@@ -28,7 +28,6 @@
 }
 
 .title__servicos{
-
     color: white;
     margin: 5% 0 .5% 0;
     font-size: 3rem;
@@ -56,12 +55,13 @@
     height: 20em;
     background:grey;
     border-radius: .5em;
-    
-
+    animation-name: body;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
 }
 
-.website__nav{
-    
+.servicos__website .website__nav{
     width: 100%;
     height: 20%;
     background: rgb(59, 59, 59);
@@ -73,16 +73,16 @@
 
     animation-name: navbar;
     animation-duration: 2s;
-
+    animation-delay: 1s;
 }
 
-.website__logo{
+.servicos__website .website__nav .website__logo{
     width: 20%;
     height: 50%;
     background: #6CE95A;
     border-radius: .5em;
 }
-.website__menu {
+.servicos__website .website__nav .website__menu {
     width: 60%;
     height: 100%;
     display: flex;
@@ -90,71 +90,62 @@
     justify-content: space-around;
 }
 
-.website__menu__itens{
+.servicos__website .website__nav .website__menu .website__menu__itens{
     width: 15%;
     height: 10%;
     background: rgb(17, 17, 17);
     border-radius: .5em;
 }
 
-.website__section{
+.servicos__website .website__section{
     padding: 1em;
     width: 100%;
     height: 50%;
     display: flex;
     justify-content: space-around;
-
 }
 
-.website__section__img{
+.servicos__website .website__section .website__section__img{
     width: 45%;
     height: 100%;
     background: rgb(102, 102, 102);
-
     animation-name: img;
-    animation-duration: 2s;
-    animation-delay: .5s;
+    animation-duration: 4s;
+    animation-delay: .2s;
     animation-fill-mode: backwards;
 }
 
-.website__section__txt{
-
+.servicos__website .website__section .website__section__txt{
     width: 40%;
     height: 50%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
     animation-name: text;
     animation-duration: 2s;
     animation-delay: 1s;
     animation-fill-mode: backwards;
-
 }
 
-.website__section__txt__item{
-
+.servicos__website .website__section .website__section__txt .website__section__txt__item{
     width: 15em;
     height: 1em;
     background: rgb(39, 39, 39);
     border-radius: .5em;
 }
 
-
-.website__section1{
+.servicos__website .website__section1{
     padding: 1em;
     width: 100%;
     height: 30%;
     align-items: center;
-
     animation-name: text;
     animation-duration: 2s;
     animation-delay: 1.5s;
     animation-fill-mode: backwards;
 }
 
-.website__section__txt__item1{
-
+.servicos__website .website__section1 .website__section__txt__item1{
     width: 100%;
     height: 1em;
     margin-bottom: .5em;    
@@ -179,8 +170,6 @@
     font-family: Montserrat-Bold;
 }
 
-
-
 @keyframes navbar{
     from{
         opacity: 0;
@@ -189,7 +178,16 @@
         opacity: 1;
         transform: translateY(0);
     }
+}
 
+@keyframes body{
+    from{
+        opacity: 0;
+        transform: translateY(-15%);
+    }to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes img{
@@ -200,7 +198,6 @@
         opacity: 1;
         transform: translateX(0);
     }
-
 }
 
 @keyframes text{
@@ -211,13 +208,9 @@
         opacity: 1;
         transform: translateX(0);
     }
-
 }
 
-
-
 @media (max-width: 900px) {
-
     .servicos__website{
         width: 90%;
         margin: auto;
