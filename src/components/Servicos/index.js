@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css'
 
+console.log(document.documentElement.scrollTop);
 
 const Servicos = () => (
 
