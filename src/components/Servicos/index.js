@@ -58,6 +58,10 @@ class Servicos extends Component {
                   <div className="servicos__desc">
                      <h1 className="servicos__desc__title">Desenvolvimento de sites</h1>
                      <p className="servicos__desc__text">Desenvolvimento de sites responsivos com sistemas gerenciadores de conteúdo (CMS).</p>
+
+                     <h1 className="servicos__desc__title">Desenvolvimento de sistemas</h1>
+                     <p className="servicos__desc__text">Desenvolvimento de sistemas personalizados e ajustados para agilizar e integrar seus processos.</p>
+                     
                   </div> 
                </div>
             </div>
