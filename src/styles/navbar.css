@@ -43,10 +43,13 @@
 .nav-text a {
     color: white;
     margin-right: 10px;
+    transition: all .2s;
 }
 
 .nav-text a:hover {
     opacity: 0.5;
+    margin-bottom: -2px;
+    border-bottom: 2px solid #02FF30;
 }
 
 .fab{
