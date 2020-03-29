@@ -9,7 +9,7 @@ import iconlinkedin from '../../assets/svg/iconlinkedin.svg'
 const Contato = () => {
 
    return(
-   <container className="container__contato">
+   <container id="contato" className="container__contato">
       
       <div className="contato">
          <div className="title__contato">Contato</div>

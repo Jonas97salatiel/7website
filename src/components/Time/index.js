@@ -6,7 +6,7 @@ import TimeMembers from '../TimeMembers/timeMembers'
 
 const Time = () => (
 
-   <container className="container__time">
+   <container id="time" className="container__time">
 
       <div className="time">
          <div className="title">

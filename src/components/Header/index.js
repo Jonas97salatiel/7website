@@ -17,26 +17,26 @@ const toggle = () => setIsOpen(!isOpen);
 
   return (<div  className="seven-navbar">
       <Navbar className="nav-text" expand="md">
-        <NavbarBrand href="/">SevenSight</NavbarBrand>
+        <NavbarBrand href="#home">SevenSight</NavbarBrand>
         <NavbarToggler onClick={toggle} >
         <i class="fab fa-buffer fa-2x"></i>
         </NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/sobre/">Sobre</NavLink>
+              <NavLink href="#sobre">Sobre</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/time/">Time</NavLink>
+              <NavLink href="#time">Time</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/servicos/">Serviços</NavLink>
+              <NavLink href="#servicos">Serviços</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/clientes/">Clientes</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contato/">Contato</NavLink>
+              <NavLink href="#contato">Contato</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

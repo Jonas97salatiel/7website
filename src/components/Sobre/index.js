@@ -9,7 +9,7 @@ const Sobre = () => {
 
     return (
 
-        <container className="container__sobre">
+        <container id="sobre" className="container__sobre">
 
             <div className="sobre">
                 <div className="title">

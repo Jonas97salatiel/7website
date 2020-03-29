@@ -4,7 +4,7 @@ import './style.css'
 
 const Home = () => (
 
-   <container className="container__home">
+   <container id="home" className="container__home">
 
 
       <div className="home">  
@@ -17,7 +17,7 @@ const Home = () => (
          </div>
          <div className="aling__end">
          <p className="text__home">Dar vida ao seu projeto<br/> é o nosso objetivo</p>
-         <button className="button__contato">Entrar em contato</button>
+         <a href="#contato"><button className="button__contato">Entrar em contato</button></a>
          </div>
       </div>
       

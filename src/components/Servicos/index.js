@@ -23,7 +23,7 @@ class Servicos extends Component {
 
    render() {
       return (
-         <section className="container__servicos">
+         <section id="servicos" className="container__servicos">
             <div className="servicos">
                <div className="title__servicos">Servicos</div>
                <div className="traco"></div>
