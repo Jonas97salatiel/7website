@@ -167,7 +167,7 @@
 .servicos__desc__text{
     padding-top: 1em;
     color: white;
-    font-family: Montserrat-Bold;
+    font-family: Montserrat-Regular;   
 }
 
 @keyframes navbar{
