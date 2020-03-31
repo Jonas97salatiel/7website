@@ -15,7 +15,7 @@ const Header = () => {
 const [isOpen, setIsOpen] = useState(false);
 const toggle = () => setIsOpen(!isOpen);
 
-  return (<div  className="seven-navbar">
+  return (<div  className="fixed-top seven-navbar">
       <Navbar className="nav-text" expand="md">
         <NavbarBrand href="#home">SevenSight</NavbarBrand>
         <NavbarToggler onClick={toggle} >
