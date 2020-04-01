@@ -14,7 +14,17 @@
     src: url(../assets/fonts/Montserrat-Bold.ttf);
 }
 
+.navbar-toggler {
+    width: 60px;
 
+}
+
+.icon {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
 
 .seven-navbar{
     background-color: black;
@@ -39,9 +49,6 @@
     padding-right:30px;
   }
   
-.navbar-toggler-icon{
-    background-color: #6CE95A !important;
-}
 .nav-text a {
     color: white;
     margin-right: 10px;
